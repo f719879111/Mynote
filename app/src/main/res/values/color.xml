@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="thin_yellow">#f5f0a9</color>
+    <color name="font_soil">#7b3a16</color>
+    <color name="font_hint">#d9d7d7</color>
+    <color name="font_hint1">#777777</color>
+    <color name="font_set_blles">#575757</color>
+    <color name="font_title">#3F3F3F</color>
+    <color name="font_1">#787878</color>
+    <color name="font_black">#262626</color>
+    <color name="gray">#F0F0F0</color>
+    <color name="border_deep_gray">#C6C6C6</color>
+    <color name="set_interval">#EAEAEA</color>
+    <color name="set_right_brackets">#D4D4D4</color>
+    <color name="bag_light_blue">#CEECEE</color>
+    <color name="colorPrimary">#ffffffff</color>
+    <color name="colorPrimaryDark">#ffffffff</color>
+    <color name="colorAccent">#ffffffff</color>
+
+</resources>

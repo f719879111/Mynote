@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/title_bar" /> -->
+
+    <com.example.view.TitleView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1"
+        android:background="@color/border_deep_gray" />
+
+    <TextView
+        android:id="@+id/tv_dateAndTime"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_40"
+        android:gravity="center_vertical"
+        android:padding="@dimen/size_10"
+        android:text="2017年10月9日 20:14"
+        android:textColor="@color/font_hint1" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    	android:layout_weight="1"
+        android:autoText="true"
+        android:freezesText="true"
+        android:gravity="top|left"
+        android:hint="@string/hint_input"
+        android:lineSpacingMultiplier="1"
+        android:padding="@dimen/size_10"
+        android:textColorHint="@color/font_hint" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingBottom="@dimen/size_5"
+        android:src="@drawable/delete" />
+</LinearLayout>

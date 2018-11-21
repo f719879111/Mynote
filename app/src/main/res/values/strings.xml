@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我的便签</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_memo">添加</string>
+    <string name="add_memo_title">添加便签</string>
+    <string name="hint_input">请输入便笺内容</string>
+
+    <string name="test_bells_name">便签标题</string>
+    <string name="test_long">便签内容</string>
+
+</resources>
